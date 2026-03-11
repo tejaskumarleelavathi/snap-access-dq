@@ -1,0 +1,19 @@
+services:
+  sql:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    # no arm64 build of 2022, runs fine under rosetta / qemu
+    platform: linux/amd64
+    container_name: snap-access-dq-sql
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:-SnapAccess_dq1}
+    ports:
+      - "${SQL_PORT:-14330}:1433"
+    volumes:
+      - ./data:/data:ro
+      - ./sql:/sql:ro
+      - mssql-data:/var/opt/mssql
+
+volumes:
+  mssql-data:
