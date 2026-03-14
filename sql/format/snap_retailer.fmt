@@ -1,0 +1,17 @@
+14.0
+15
+1  SQLCHAR  0  255  ","  1  "Record ID"  Latin1_General_100_CI_AS_SC_UTF8
+2  SQLCHAR  0  255  ","  2  "Store Name"  Latin1_General_100_CI_AS_SC_UTF8
+3  SQLCHAR  0  255  ","  3  "Store Type"  Latin1_General_100_CI_AS_SC_UTF8
+4  SQLCHAR  0  255  ","  4  "Street Number"  Latin1_General_100_CI_AS_SC_UTF8
+5  SQLCHAR  0  255  ","  5  "Street Name"  Latin1_General_100_CI_AS_SC_UTF8
+6  SQLCHAR  0  255  ","  6  "Additional Address"  Latin1_General_100_CI_AS_SC_UTF8
+7  SQLCHAR  0  255  ","  7  "City"  Latin1_General_100_CI_AS_SC_UTF8
+8  SQLCHAR  0  255  ","  8  "State"  Latin1_General_100_CI_AS_SC_UTF8
+9  SQLCHAR  0  255  ","  9  "Zip Code"  Latin1_General_100_CI_AS_SC_UTF8
+10  SQLCHAR  0  255  ","  10  "Zip4"  Latin1_General_100_CI_AS_SC_UTF8
+11  SQLCHAR  0  255  ","  11  "County"  Latin1_General_100_CI_AS_SC_UTF8
+12  SQLCHAR  0  255  ","  12  "Latitude"  Latin1_General_100_CI_AS_SC_UTF8
+13  SQLCHAR  0  255  ","  13  "Longitude"  Latin1_General_100_CI_AS_SC_UTF8
+14  SQLCHAR  0  255  ","  14  "Authorization Date"  Latin1_General_100_CI_AS_SC_UTF8
+15  SQLCHAR  0  255  "\r\n"  15  "End Date"  Latin1_General_100_CI_AS_SC_UTF8
